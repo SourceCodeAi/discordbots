@@ -11,7 +11,7 @@ class TopGG(commands.Cog):
 
     def __init__(self, bot):
         self.bot = bot
-        self.token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Ijc4OTk3NTM5NTIzODY3NDQ2MyIsImJvdCI6dHJ1ZSwiaWF0IjoxNjA4ODQ3NzI5fQ.SO7007Ty4UuHseSXJM4PfBLxZs8VZu77fEbmPWehxWY'  # set this to your DBL token
+        self.token = 'top.gg token here'  # set this to your DBL token
         self.dblpy = dbl.DBLClient(self.bot, self.token, webhook_path='/dblwebhook', webhook_auth='Universe', webhook_port=4024)
 
     @commands.Cog.listener()
